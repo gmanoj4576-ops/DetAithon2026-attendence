@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>DETAlthon 2K26 | Attendance System</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Animated Background -->
+    <div class="bg-animation"></div>
+
+    <!-- Main Card -->
+    <div class="card">
+        <h1>DET<span>AI</span>THON 2K26</h1>
+        <p class="tagline">Money Heist Themed Attendance System</p>
+
+        <div class="buttons">
+            <button onclick="openQR()">📸 Scan QR Attendance</button>
+            <button onclick="openManual()">✍ Manual Attendance</button>
+            <button onclick="openAttended()">📊 Attended Students</button>
+            <button onclick="openAllStudents()">📋 Total Students List</button>
+        </div>
+    </div>
+
+    <script>
+        /* ✅ BEST QR SCANNER LINK */
+        function openQR() {
+            window.open("https://webqr.com/");
+        }
+
+        /* Manual Attendance Form */
+        function openManual() {
+            window.open("https://docs.google.com/forms/d/e/1FAIpQLSfCrk_xYuyihsnNzrk8wLCaZ5TJZiGce1zbZnHIGSzCSxmn-A/viewform?usp=pp_url&entry.1703502548=G++MANOJ");
+        }
+
+        /* Attended Students Sheet */
+        function openAttended() {
+            window.open("https://docs.google.com/spreadsheets/d/1QFcLrLseOw7y9XcvJ-DgeaR-5X-W7OcCvTPAjjBoonw/edit?gid=1003170004");
+        }
+
+        /* Total Students Master Sheet */
+        function openAllStudents() {
+            window.open("https://docs.google.com/spreadsheets/d/124q695i8KkLMYx5Hjc-A-JgzFHjJ57kXEDoy2yuyN6g/edit");
+        }
+    </script>
+
+</body>
+
+</html>
